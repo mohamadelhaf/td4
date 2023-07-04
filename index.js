@@ -1,11 +1,5 @@
 function getRandomNumber() {
-    return x = Math.random(0, 100);
-    
+    return Math.floor(Math.random() * 100);
 }
 
-
-
-
-
-
-module.exports=getRandomNumber()
+module.exports = getRandomNumber;
